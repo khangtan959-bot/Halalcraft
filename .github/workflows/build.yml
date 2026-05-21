@@ -1,5 +1,10 @@
 name: Build HalalCraft
-on: [push, pull_request]
+on:
+  push:
+    branches: [ "main" ] # Bạn có thể giới hạn build tự động ở đây nếu muốn
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch: # Thêm dòng này để bật tính năng build thủ công trên giao diện
 
 jobs:
   build:
@@ -12,6 +17,8 @@ jobs:
           distribution: 'temurin'
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
+      - name: Permission
+        run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew build
       - name: Upload Artifact
