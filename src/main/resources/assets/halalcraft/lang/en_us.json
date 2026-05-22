@@ -1,0 +1,11 @@
+{
+  "item.halalcraft.info_book": "HalalCraft Information Book",
+  "item.halalcraft.guide_book": "Laws & Guide Book",
+  "msg.halalcraft.shahada_accepted": "§a[HALALCRAFT] Shahada accepted. You are now free!",
+  "msg.halalcraft.zakat_collected": "§e[ZAKAT] §fResource tax collected (50% raw materials).",
+  "msg.halalcraft.prayer_timer": "§6§lPrayer in: §f%s",
+  "msg.halalcraft.prayer_done": "§a[SALAH] §fYou have completed the prayer ritual.",
+  "msg.halalcraft.penalty": "§c[HALALCRAFT] YOU HAVE VIOLATED THE LAW!",
+  "msg.halalcraft.penalty_reason": "Reason: %s",
+  "msg.halalcraft.bismillah_noted": "§e[HALALCRAFT] Bismillah noted. You have 30 seconds for Halal hunting."
+}

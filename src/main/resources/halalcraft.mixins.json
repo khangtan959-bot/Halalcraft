@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.halalcraft.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChatMixin",
+    "PlayerEntityMixin",
+    "LivingEntityMixin",
+    "ProhibitionMixin",
+    "ChestMixin",
+    "VillagerMixin",
+    "SlotMixin"
+  ]
+}
